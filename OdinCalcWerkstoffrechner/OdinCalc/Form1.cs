@@ -199,7 +199,6 @@ namespace OdinCalc
             lb_material.Enabled = false;
         }
 
-
         /// <summary>
         /// Calculate 
         /// </summary>
@@ -233,7 +232,6 @@ namespace OdinCalc
         {
             lv_Materialien.Items.Clear();
         }
-
 
         /// <summary>
         /// Write Dichte from Selected Item to tb_dichte
@@ -296,12 +294,44 @@ namespace OdinCalc
             }
             else
             {
-                ListViewItem item = lv_materialListe.SelectedItems[0];
-                Material material = new Material(item.SubItems[0].Text, item.SubItems[2].Text, Double.Parse(item.SubItems[1].Text));
-                materialListe.Remove(material.name);
-                DeleteMaterialien.Delete(materialListe);
-                FillList(materialListe);
+                foreach(ListViewItem item in lv_materialListe.SelectedItems)
+                {
+                    Material material = new Material(item.SubItems[0].Text, item.SubItems[2].Text, Double.Parse(item.SubItems[1].Text));
+                    materialListe.Remove(material.name);
+                    DeleteMaterialien.Delete(materialListe);
+                    FillList(materialListe);
+                }
             }
+        }
+
+        /// <summary>
+        /// Clear Dichte Feld
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void btn_clearDichteFeld_Click(object sender, EventArgs e)
+        {
+            tb_dichte.Clear();
+        }
+
+        /// <summary>
+        /// Clear Volumen Feld
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void btn_clearVolumenFeld_Click(object sender, EventArgs e)
+        {
+            tb_volumen.Clear();
+        }
+
+        /// <summary>
+        /// Clear Masse Feld
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void btn_clearMasseFeld_Click(object sender, EventArgs e)
+        {
+            tb_gewicht.Clear();
         }
     }
 }
