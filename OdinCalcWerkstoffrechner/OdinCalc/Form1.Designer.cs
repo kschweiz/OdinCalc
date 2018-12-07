@@ -64,6 +64,9 @@
             this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader6 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.label8 = new System.Windows.Forms.Label();
+            this.btn_clearDichteFeld = new System.Windows.Forms.Button();
+            this.btn_clearVolumenFeld = new System.Windows.Forms.Button();
+            this.btn_clearMasseFeld = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -107,7 +110,7 @@
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Location = new System.Drawing.Point(12, 36);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(633, 243);
+            this.panel1.Size = new System.Drawing.Size(642, 243);
             this.panel1.TabIndex = 2;
             // 
             // panel4
@@ -126,7 +129,7 @@
             this.bt_calculate.Location = new System.Drawing.Point(263, 6);
             this.bt_calculate.Name = "bt_calculate";
             this.bt_calculate.Size = new System.Drawing.Size(180, 25);
-            this.bt_calculate.TabIndex = 27;
+            this.bt_calculate.TabIndex = 21;
             this.bt_calculate.Text = "Calculate";
             this.bt_calculate.UseVisualStyleBackColor = true;
             this.bt_calculate.Click += new System.EventHandler(this.bt_calculate_Click);
@@ -145,6 +148,9 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.DimGray;
+            this.panel3.Controls.Add(this.btn_clearMasseFeld);
+            this.panel3.Controls.Add(this.btn_clearVolumenFeld);
+            this.panel3.Controls.Add(this.btn_clearDichteFeld);
             this.panel3.Controls.Add(this.label4);
             this.panel3.Controls.Add(this.label3);
             this.panel3.Controls.Add(this.label2);
@@ -153,7 +159,7 @@
             this.panel3.Controls.Add(this.tb_dichte);
             this.panel3.Location = new System.Drawing.Point(464, 6);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(160, 186);
+            this.panel3.Size = new System.Drawing.Size(171, 186);
             this.panel3.TabIndex = 19;
             // 
             // label4
@@ -162,9 +168,9 @@
             this.label4.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(3, 119);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(111, 17);
+            this.label4.Size = new System.Drawing.Size(46, 17);
             this.label4.TabIndex = 23;
-            this.label4.Text = "Masse / Gewicht ";
+            this.label4.Text = "Masse";
             // 
             // label3
             // 
@@ -190,7 +196,7 @@
             // 
             this.tb_gewicht.Location = new System.Drawing.Point(6, 139);
             this.tb_gewicht.Name = "tb_gewicht";
-            this.tb_gewicht.Size = new System.Drawing.Size(146, 20);
+            this.tb_gewicht.Size = new System.Drawing.Size(151, 20);
             this.tb_gewicht.TabIndex = 20;
             this.tb_gewicht.TextChanged += new System.EventHandler(this.tb_gewicht_TextChanged);
             // 
@@ -198,7 +204,7 @@
             // 
             this.tb_volumen.Location = new System.Drawing.Point(6, 82);
             this.tb_volumen.Name = "tb_volumen";
-            this.tb_volumen.Size = new System.Drawing.Size(146, 20);
+            this.tb_volumen.Size = new System.Drawing.Size(151, 20);
             this.tb_volumen.TabIndex = 19;
             this.tb_volumen.TextChanged += new System.EventHandler(this.tb_volumen_TextChanged);
             // 
@@ -206,7 +212,7 @@
             // 
             this.tb_dichte.Location = new System.Drawing.Point(6, 29);
             this.tb_dichte.Name = "tb_dichte";
-            this.tb_dichte.Size = new System.Drawing.Size(146, 20);
+            this.tb_dichte.Size = new System.Drawing.Size(151, 20);
             this.tb_dichte.TabIndex = 18;
             this.tb_dichte.TextChanged += new System.EventHandler(this.tb_dichte_TextChanged);
             // 
@@ -239,6 +245,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lv_Materialien.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lv_Materialien.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lv_Materialien.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.columnHeader3,
             this.columnHeader4,
@@ -297,7 +304,7 @@
             this.panel5.Controls.Add(this.panel8);
             this.panel5.Location = new System.Drawing.Point(12, 285);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(633, 284);
+            this.panel5.Size = new System.Drawing.Size(642, 284);
             this.panel5.TabIndex = 3;
             // 
             // panel8
@@ -315,7 +322,7 @@
             this.panel8.Controls.Add(this.label8);
             this.panel8.Location = new System.Drawing.Point(4, 6);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(620, 273);
+            this.panel8.Size = new System.Drawing.Size(631, 273);
             this.panel8.TabIndex = 18;
             // 
             // label7
@@ -375,7 +382,7 @@
             this.bt_newMaterial.Location = new System.Drawing.Point(511, 244);
             this.bt_newMaterial.Name = "bt_newMaterial";
             this.bt_newMaterial.Size = new System.Drawing.Size(95, 23);
-            this.bt_newMaterial.TabIndex = 30;
+            this.bt_newMaterial.TabIndex = 103;
             this.bt_newMaterial.Text = "Create New";
             this.bt_newMaterial.UseVisualStyleBackColor = true;
             this.bt_newMaterial.Click += new System.EventHandler(this.bt_newMaterial_Click);
@@ -383,7 +390,7 @@
             // btn_deleteMaterial
             // 
             this.btn_deleteMaterial.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_deleteMaterial.Location = new System.Drawing.Point(511, 18);
+            this.btn_deleteMaterial.Location = new System.Drawing.Point(522, 18);
             this.btn_deleteMaterial.Name = "btn_deleteMaterial";
             this.btn_deleteMaterial.Size = new System.Drawing.Size(95, 23);
             this.btn_deleteMaterial.TabIndex = 20;
@@ -397,6 +404,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lv_materialListe.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lv_materialListe.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lv_materialListe.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.columnHeader2,
             this.columnHeader5,
@@ -405,9 +413,8 @@
             this.lv_materialListe.FullRowSelect = true;
             this.lv_materialListe.GridLines = true;
             this.lv_materialListe.Location = new System.Drawing.Point(6, 47);
-            this.lv_materialListe.MultiSelect = false;
             this.lv_materialListe.Name = "lv_materialListe";
-            this.lv_materialListe.Size = new System.Drawing.Size(600, 172);
+            this.lv_materialListe.Size = new System.Drawing.Size(611, 172);
             this.lv_materialListe.Sorting = System.Windows.Forms.SortOrder.Ascending;
             this.lv_materialListe.TabIndex = 19;
             this.lv_materialListe.UseCompatibleStateImageBehavior = false;
@@ -438,19 +445,52 @@
             this.label8.TabIndex = 16;
             this.label8.Text = "Matarial Liste:";
             // 
+            // btn_clearDichteFeld
+            // 
+            this.btn_clearDichteFeld.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_clearDichteFeld.Location = new System.Drawing.Point(97, 5);
+            this.btn_clearDichteFeld.Name = "btn_clearDichteFeld";
+            this.btn_clearDichteFeld.Size = new System.Drawing.Size(60, 20);
+            this.btn_clearDichteFeld.TabIndex = 24;
+            this.btn_clearDichteFeld.Text = "Clear";
+            this.btn_clearDichteFeld.UseVisualStyleBackColor = true;
+            this.btn_clearDichteFeld.Click += new System.EventHandler(this.btn_clearDichteFeld_Click);
+            // 
+            // btn_clearVolumenFeld
+            // 
+            this.btn_clearVolumenFeld.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_clearVolumenFeld.Location = new System.Drawing.Point(97, 59);
+            this.btn_clearVolumenFeld.Name = "btn_clearVolumenFeld";
+            this.btn_clearVolumenFeld.Size = new System.Drawing.Size(60, 20);
+            this.btn_clearVolumenFeld.TabIndex = 25;
+            this.btn_clearVolumenFeld.Text = "Clear";
+            this.btn_clearVolumenFeld.UseVisualStyleBackColor = true;
+            this.btn_clearVolumenFeld.Click += new System.EventHandler(this.btn_clearVolumenFeld_Click);
+            // 
+            // btn_clearMasseFeld
+            // 
+            this.btn_clearMasseFeld.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_clearMasseFeld.Location = new System.Drawing.Point(97, 116);
+            this.btn_clearMasseFeld.Name = "btn_clearMasseFeld";
+            this.btn_clearMasseFeld.Size = new System.Drawing.Size(60, 20);
+            this.btn_clearMasseFeld.TabIndex = 26;
+            this.btn_clearMasseFeld.Text = "Clear";
+            this.btn_clearMasseFeld.UseVisualStyleBackColor = true;
+            this.btn_clearMasseFeld.Click += new System.EventHandler(this.btn_clearMasseFeld_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(656, 581);
+            this.ClientSize = new System.Drawing.Size(664, 581);
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.radioButtonManuel);
             this.Controls.Add(this.radioButtonMaterialListe);
             this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(672, 620);
-            this.MinimumSize = new System.Drawing.Size(672, 620);
+            this.MaximumSize = new System.Drawing.Size(680, 620);
+            this.MinimumSize = new System.Drawing.Size(680, 620);
             this.Name = "Form1";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -508,6 +548,9 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button btn_clearMasseFeld;
+        private System.Windows.Forms.Button btn_clearVolumenFeld;
+        private System.Windows.Forms.Button btn_clearDichteFeld;
     }
 }
 

@@ -58,3 +58,13 @@ C:\Users\KSchw\OneDrive\OdinCalc\OdinCalc V1.0\OdinCalc1.1\OdinCalc\obj\Debug\Od
 C:\Users\KSchw\OneDrive\OdinCalc\OdinCalc V1.0\OdinCalc1.1\OdinCalc\obj\Debug\OdinCalc.csproj.CoreCompileInputs.cache
 C:\Users\KSchw\OneDrive\OdinCalc\OdinCalc V1.0\OdinCalc1.1\OdinCalc\obj\Debug\OdinCalc.exe
 C:\Users\KSchw\OneDrive\OdinCalc\OdinCalc V1.0\OdinCalc1.1\OdinCalc\obj\Debug\OdinCalc.pdb
+C:\Users\scke\Documents\GitHub\OdinCalc\OdinCalcWerkstoffrechner\OdinCalc\bin\Debug\OdinCalc.exe.config
+C:\Users\scke\Documents\GitHub\OdinCalc\OdinCalcWerkstoffrechner\OdinCalc\bin\Debug\OdinCalc.exe
+C:\Users\scke\Documents\GitHub\OdinCalc\OdinCalcWerkstoffrechner\OdinCalc\bin\Debug\OdinCalc.pdb
+C:\Users\scke\Documents\GitHub\OdinCalc\OdinCalcWerkstoffrechner\OdinCalc\obj\Debug\OdinCalc.csprojResolveAssemblyReference.cache
+C:\Users\scke\Documents\GitHub\OdinCalc\OdinCalcWerkstoffrechner\OdinCalc\obj\Debug\OdinCalc.Form1.resources
+C:\Users\scke\Documents\GitHub\OdinCalc\OdinCalcWerkstoffrechner\OdinCalc\obj\Debug\OdinCalc.Properties.Resources.resources
+C:\Users\scke\Documents\GitHub\OdinCalc\OdinCalcWerkstoffrechner\OdinCalc\obj\Debug\OdinCalc.csproj.GenerateResource.Cache
+C:\Users\scke\Documents\GitHub\OdinCalc\OdinCalcWerkstoffrechner\OdinCalc\obj\Debug\OdinCalc.csproj.CoreCompileInputs.cache
+C:\Users\scke\Documents\GitHub\OdinCalc\OdinCalcWerkstoffrechner\OdinCalc\obj\Debug\OdinCalc.exe
+C:\Users\scke\Documents\GitHub\OdinCalc\OdinCalcWerkstoffrechner\OdinCalc\obj\Debug\OdinCalc.pdb

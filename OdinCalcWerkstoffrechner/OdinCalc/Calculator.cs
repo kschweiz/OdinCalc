@@ -20,16 +20,19 @@ namespace OdinCalc
         {
             if(rechnung.dichte == 0.0)
             {
-                form.tb_dichte.Text = rechnung.GetDichte().ToString();
+                rechnung.dichte = rechnung.GetDichte();
+                form.tb_dichte.Text = rechnung.dichte.ToString();
             }else if(rechnung.volumen == 0.0)
             {
-                form.tb_volumen.Text = rechnung.GetVolumen().ToString();
+                rechnung.volumen = rechnung.GetVolumen();
+                form.tb_volumen.Text = rechnung.volumen.ToString();
             }else if(rechnung.masse == 0.0)
             {
-                form.tb_gewicht.Text = rechnung.GetMasse().ToString();
+                rechnung.masse = rechnung.GetMasse();
+                form.tb_gewicht.Text = rechnung.masse.ToString();
             }
 
-            PrePostMaterialien(rechnung.GetDichte());
+            PrePostMaterialien(rechnung.dichte);
         }
 
         public void CreateCalcVorgabe(Rechnung rechnung)
