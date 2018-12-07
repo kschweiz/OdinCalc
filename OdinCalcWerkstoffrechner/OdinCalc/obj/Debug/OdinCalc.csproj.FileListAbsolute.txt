@@ -1,0 +1,60 @@
+c:\users\scke\source\repos\OdinCalc\OdinCalc\bin\Debug\OdinCalc.exe.config
+c:\users\scke\source\repos\OdinCalc\OdinCalc\bin\Debug\OdinCalc.exe
+c:\users\scke\source\repos\OdinCalc\OdinCalc\bin\Debug\OdinCalc.pdb
+c:\users\scke\source\repos\OdinCalc\OdinCalc\obj\Debug\OdinCalc.csprojResolveAssemblyReference.cache
+c:\users\scke\source\repos\OdinCalc\OdinCalc\obj\Debug\OdinCalc.Form1.resources
+c:\users\scke\source\repos\OdinCalc\OdinCalc\obj\Debug\OdinCalc.Properties.Resources.resources
+c:\users\scke\source\repos\OdinCalc\OdinCalc\obj\Debug\OdinCalc.csproj.GenerateResource.Cache
+c:\users\scke\source\repos\OdinCalc\OdinCalc\obj\Debug\OdinCalc.csproj.CoreCompileInputs.cache
+c:\users\scke\source\repos\OdinCalc\OdinCalc\obj\Debug\OdinCalc.exe
+c:\users\scke\source\repos\OdinCalc\OdinCalc\obj\Debug\OdinCalc.pdb
+C:\Users\Kevin\OneDrive\OdinCalc\OdinCalc\bin\Debug\OdinCalc.exe.config
+C:\Users\Kevin\OneDrive\OdinCalc\OdinCalc\bin\Debug\OdinCalc.exe
+C:\Users\Kevin\OneDrive\OdinCalc\OdinCalc\bin\Debug\OdinCalc.pdb
+C:\Users\Kevin\OneDrive\OdinCalc\OdinCalc\obj\Debug\OdinCalc.csprojResolveAssemblyReference.cache
+C:\Users\Kevin\OneDrive\OdinCalc\OdinCalc\obj\Debug\OdinCalc.Form1.resources
+C:\Users\Kevin\OneDrive\OdinCalc\OdinCalc\obj\Debug\OdinCalc.Properties.Resources.resources
+C:\Users\Kevin\OneDrive\OdinCalc\OdinCalc\obj\Debug\OdinCalc.csproj.GenerateResource.Cache
+C:\Users\Kevin\OneDrive\OdinCalc\OdinCalc\obj\Debug\OdinCalc.csproj.CoreCompileInputs.cache
+C:\Users\Kevin\OneDrive\OdinCalc\OdinCalc\obj\Debug\OdinCalc.exe
+C:\Users\Kevin\OneDrive\OdinCalc\OdinCalc\obj\Debug\OdinCalc.pdb
+C:\Users\KSchw\OneDrive\OdinCalc\OdinCalc\bin\Debug\OdinCalc.exe.config
+C:\Users\KSchw\OneDrive\OdinCalc\OdinCalc\bin\Debug\OdinCalc.exe
+C:\Users\KSchw\OneDrive\OdinCalc\OdinCalc\bin\Debug\OdinCalc.pdb
+C:\Users\KSchw\OneDrive\OdinCalc\OdinCalc\obj\Debug\OdinCalc.csprojResolveAssemblyReference.cache
+C:\Users\KSchw\OneDrive\OdinCalc\OdinCalc\obj\Debug\OdinCalc.Form1.resources
+C:\Users\KSchw\OneDrive\OdinCalc\OdinCalc\obj\Debug\OdinCalc.Properties.Resources.resources
+C:\Users\KSchw\OneDrive\OdinCalc\OdinCalc\obj\Debug\OdinCalc.csproj.GenerateResource.cache
+C:\Users\KSchw\OneDrive\OdinCalc\OdinCalc\obj\Debug\OdinCalc.csproj.CoreCompileInputs.cache
+C:\Users\KSchw\OneDrive\OdinCalc\OdinCalc\obj\Debug\OdinCalc.exe
+C:\Users\KSchw\OneDrive\OdinCalc\OdinCalc\obj\Debug\OdinCalc.pdb
+C:\Users\scke\Desktop\C#\OdinCalc\OdinCalc\bin\Debug\OdinCalc.exe.config
+C:\Users\scke\Desktop\C#\OdinCalc\OdinCalc\bin\Debug\OdinCalc.exe
+C:\Users\scke\Desktop\C#\OdinCalc\OdinCalc\bin\Debug\OdinCalc.pdb
+C:\Users\scke\Desktop\C#\OdinCalc\OdinCalc\obj\Debug\OdinCalc.csprojResolveAssemblyReference.cache
+C:\Users\scke\Desktop\C#\OdinCalc\OdinCalc\obj\Debug\OdinCalc.Form1.resources
+C:\Users\scke\Desktop\C#\OdinCalc\OdinCalc\obj\Debug\OdinCalc.Properties.Resources.resources
+C:\Users\scke\Desktop\C#\OdinCalc\OdinCalc\obj\Debug\OdinCalc.csproj.GenerateResource.Cache
+C:\Users\scke\Desktop\C#\OdinCalc\OdinCalc\obj\Debug\OdinCalc.csproj.CoreCompileInputs.cache
+C:\Users\scke\Desktop\C#\OdinCalc\OdinCalc\obj\Debug\OdinCalc.exe
+C:\Users\scke\Desktop\C#\OdinCalc\OdinCalc\obj\Debug\OdinCalc.pdb
+C:\Users\KSchw\OneDrive\OdinCalc\OdinCalc V1.0\OdinCalc-\OdinCalc\bin\Debug\OdinCalc.exe.config
+C:\Users\KSchw\OneDrive\OdinCalc\OdinCalc V1.0\OdinCalc-\OdinCalc\bin\Debug\OdinCalc.exe
+C:\Users\KSchw\OneDrive\OdinCalc\OdinCalc V1.0\OdinCalc-\OdinCalc\bin\Debug\OdinCalc.pdb
+C:\Users\KSchw\OneDrive\OdinCalc\OdinCalc V1.0\OdinCalc-\OdinCalc\obj\Debug\OdinCalc.csprojResolveAssemblyReference.cache
+C:\Users\KSchw\OneDrive\OdinCalc\OdinCalc V1.0\OdinCalc-\OdinCalc\obj\Debug\OdinCalc.Form1.resources
+C:\Users\KSchw\OneDrive\OdinCalc\OdinCalc V1.0\OdinCalc-\OdinCalc\obj\Debug\OdinCalc.Properties.Resources.resources
+C:\Users\KSchw\OneDrive\OdinCalc\OdinCalc V1.0\OdinCalc-\OdinCalc\obj\Debug\OdinCalc.csproj.GenerateResource.cache
+C:\Users\KSchw\OneDrive\OdinCalc\OdinCalc V1.0\OdinCalc-\OdinCalc\obj\Debug\OdinCalc.csproj.CoreCompileInputs.cache
+C:\Users\KSchw\OneDrive\OdinCalc\OdinCalc V1.0\OdinCalc-\OdinCalc\obj\Debug\OdinCalc.exe
+C:\Users\KSchw\OneDrive\OdinCalc\OdinCalc V1.0\OdinCalc-\OdinCalc\obj\Debug\OdinCalc.pdb
+C:\Users\KSchw\OneDrive\OdinCalc\OdinCalc V1.0\OdinCalc1.1\OdinCalc\bin\Debug\OdinCalc.exe.config
+C:\Users\KSchw\OneDrive\OdinCalc\OdinCalc V1.0\OdinCalc1.1\OdinCalc\bin\Debug\OdinCalc.exe
+C:\Users\KSchw\OneDrive\OdinCalc\OdinCalc V1.0\OdinCalc1.1\OdinCalc\bin\Debug\OdinCalc.pdb
+C:\Users\KSchw\OneDrive\OdinCalc\OdinCalc V1.0\OdinCalc1.1\OdinCalc\obj\Debug\OdinCalc.csprojResolveAssemblyReference.cache
+C:\Users\KSchw\OneDrive\OdinCalc\OdinCalc V1.0\OdinCalc1.1\OdinCalc\obj\Debug\OdinCalc.Form1.resources
+C:\Users\KSchw\OneDrive\OdinCalc\OdinCalc V1.0\OdinCalc1.1\OdinCalc\obj\Debug\OdinCalc.Properties.Resources.resources
+C:\Users\KSchw\OneDrive\OdinCalc\OdinCalc V1.0\OdinCalc1.1\OdinCalc\obj\Debug\OdinCalc.csproj.GenerateResource.cache
+C:\Users\KSchw\OneDrive\OdinCalc\OdinCalc V1.0\OdinCalc1.1\OdinCalc\obj\Debug\OdinCalc.csproj.CoreCompileInputs.cache
+C:\Users\KSchw\OneDrive\OdinCalc\OdinCalc V1.0\OdinCalc1.1\OdinCalc\obj\Debug\OdinCalc.exe
+C:\Users\KSchw\OneDrive\OdinCalc\OdinCalc V1.0\OdinCalc1.1\OdinCalc\obj\Debug\OdinCalc.pdb
